@@ -8,7 +8,7 @@ importScripts("/ReactCurso/precache-manifest.c8fc4be122aa600509e2dbcd61983c15.js
 
 // Precarga la app
 self.__precacheManifest = [].concat(self.__precacheManifest || [])
-workbox.precaching.suppressWarnings()
+//workbox.precaching.suppressWarnings()
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {})
 
 // App Shell
