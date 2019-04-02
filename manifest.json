@@ -1,5 +1,5 @@
 {
-  "short_name": "Sin Azúcar",
+  "short_name": "SinAzúcar",
   "name": "Sin Azucar Sample",
   "icons": [
     {
@@ -11,7 +11,7 @@
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#4E92310",
   "background_color": "#ffffff",
   "related_applications": [],
 "prefer_related_applications": false
