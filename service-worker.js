@@ -1,4 +1,4 @@
-importScripts("/ReactCurso/precache-manifest.b94511249d63673869567b0a0bfc1788.js", "https://storage.googleapis.com/workbox-cdn/releases/4.1.1/workbox-sw.js");
+importScripts("/ReactCurso/precache-manifest.80abdc713253bb238f86f7852e1927b5.js", "https://storage.googleapis.com/workbox-cdn/releases/4.1.1/workbox-sw.js");
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
@@ -31,5 +31,8 @@ workbox.routing.registerRoute(/^https:\/\/fonts.(?:googleapis|gstatic).com\/(.*)
   'GET')
 
 // Todo lo demás usa Network First
-workbox.routing.registerRoute(/^https?.*/,
-  workbox.strategies.networkFirst(), 'GET')
+//workbox.routing.registerRoute(/^https?.*/,
+ // workbox.strategies.networkFirst(), 'GET')
+
+ workbox.routing.registerRoute(/^https?.*/,
+ workbox.strategies.cacheFirst(), 'GET')
