@@ -1,4 +1,4 @@
-importScripts("/ReactCurso/precache-manifest.710fadf0df8cb1a8030f6e4a59442fc5.js", "https://storage.googleapis.com/workbox-cdn/releases/4.1.1/workbox-sw.js");
+importScripts("/ReactCurso/precache-manifest.415569066371d3708fdbbaaa4147cfba.js", "https://storage.googleapis.com/workbox-cdn/releases/4.1.1/workbox-sw.js");
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
