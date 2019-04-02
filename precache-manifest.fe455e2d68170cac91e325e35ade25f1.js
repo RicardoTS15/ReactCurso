@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/ReactCurso/static/css/2.62ba6ed1.chunk.css"
   },
   {
-    "revision": "655d32d3aa99369846a0b17644de9780",
+    "revision": "89d72a50d8d6810f0ebf12074f12b78b",
     "url": "/ReactCurso/index.html"
   }
 ];
