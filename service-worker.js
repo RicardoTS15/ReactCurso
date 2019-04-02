@@ -1,4 +1,4 @@
-importScripts("/ReactCurso/precache-manifest.d82569e11e129afdac2bcd6d385e99b6.js", "https://storage.googleapis.com/workbox-cdn/releases/4.1.1/workbox-sw.js");
+importScripts("/ReactCurso/precache-manifest.c8fc4be122aa600509e2dbcd61983c15.js", "https://storage.googleapis.com/workbox-cdn/releases/4.1.1/workbox-sw.js");
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
@@ -15,8 +15,7 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest, {})
 workbox.routing.registerNavigationRoute('/index.html')
 
 // La API usa Stale While Revalidate para mayor velocidad
-workbox.routing.registerRoute(/^https?:\/\/www.themealdb.com\/api\/.*/, workbox.strategies.staleWhileRevalidate(),
- 'GET')
+//workbox.routing.registerRoute(/^https?:\/\/www.themealdb.com\/api\/.*/, workbox.strategies.staleWhileRevalidate(),'GET')
 
 // Last fuentes van con Cache First y vencen al mes
 workbox.routing.registerRoute(/^https:\/\/fonts.(?:googleapis|gstatic).com\/(.*)/, 
@@ -31,8 +30,8 @@ workbox.routing.registerRoute(/^https:\/\/fonts.(?:googleapis|gstatic).com\/(.*)
   'GET')
 
 // Todo lo demás usa Network First
-//workbox.routing.registerRoute(/^https?.*/,
- // workbox.strategies.networkFirst(), 'GET')
+workbox.routing.registerRoute(/^https?.*/,
+  workbox.strategies.networkFirst(), 'GET')
 
- workbox.routing.registerRoute(/^https?.*/,
- workbox.strategies.cacheFirst(), 'GET')
+ //workbox.routing.registerRoute(/^https?.*/,
+ //workbox.strategies.cacheFirst(), 'GET')
