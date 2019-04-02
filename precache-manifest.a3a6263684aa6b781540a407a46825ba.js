@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "/ReactCurso/static/js/runtime~main.3a167a13.js"
   },
   {
-    "revision": "23a7e44bf34f48c8bd0b",
-    "url": "/ReactCurso/static/js/main.ab41424f.chunk.js"
+    "revision": "12374691e93c7dd748fe",
+    "url": "/ReactCurso/static/js/main.e3526aee.chunk.js"
   },
   {
     "revision": "6729591b5a3ec6dda346",
     "url": "/ReactCurso/static/js/2.361a11db.chunk.js"
   },
   {
-    "revision": "23a7e44bf34f48c8bd0b",
+    "revision": "12374691e93c7dd748fe",
     "url": "/ReactCurso/static/css/main.17ca31e9.chunk.css"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/ReactCurso/static/css/2.62ba6ed1.chunk.css"
   },
   {
-    "revision": "c4cbb13f53004e1abcfd3e9914f952e2",
+    "revision": "5dcfe550ad8423de0f714b74acb0328c",
     "url": "/ReactCurso/index.html"
   }
 ];
