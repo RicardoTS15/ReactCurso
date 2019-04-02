@@ -4,15 +4,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ReactCurso/static/js/runtime~main.3a167a13.js"
   },
   {
-    "revision": "20f8fd1831af3e5cdf98",
-    "url": "/ReactCurso/static/js/main.3178ed22.chunk.js"
+    "revision": "0da2a4e1223d16c2f7d5",
+    "url": "/ReactCurso/static/js/main.00d0f779.chunk.js"
   },
   {
     "revision": "6729591b5a3ec6dda346",
     "url": "/ReactCurso/static/js/2.361a11db.chunk.js"
   },
   {
-    "revision": "20f8fd1831af3e5cdf98",
+    "revision": "0da2a4e1223d16c2f7d5",
     "url": "/ReactCurso/static/css/main.17ca31e9.chunk.css"
   },
   {
@@ -20,14 +20,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ReactCurso/static/css/2.62ba6ed1.chunk.css"
   },
   {
-    "revision": "88faa703124d25f2acb442c35c09b51d",
+    "revision": "e1b194e38247966218f3199fb11e153c",
     "url": "/ReactCurso/service-worker.js"
   },
   {
-    "url": "/ReactCurso/precache-manifest.0f9ea20078c265c3b81ddaa67ce00949.js"
+    "url": "/ReactCurso/precache-manifest.4c9016df6b178cbc2ca6d380f5b76211.js"
   },
   {
-    "revision": "58619db261643f12f0f1c7c8512b4453",
+    "revision": "6ef63320abf05209a0f7f492c0e3d079",
     "url": "/ReactCurso/index.html"
   }
 ]);
