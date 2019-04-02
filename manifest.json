@@ -3,13 +3,13 @@
   "name": "Sin Azucar Sample",
   "icons": [
     {
-      "src": "/sinazucar.png",
+      "src": "/ReactCurso/sinazucar.png",
       "sizes": "512x512",
       "type": "image/png"
     }
   ],
-  "start_url": "/ReactCurso",
-  "scope": "/",
+  "start_url": "/ReactCurso/",
+  "scope": "/ReactCurso/",
   "display": "standalone",
   "theme_color": "#164900",
   "background_color": "#164900",
